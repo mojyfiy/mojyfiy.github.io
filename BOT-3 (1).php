@@ -483,7 +483,7 @@ SETJSON($rshq);
 
 
   if($text and $rshq['mode'][$from_id]== "setname"){
-    if(true){\
+    if(true){/
       bot('sendmessage',[
         'chat_id'=>$chat_id,
         'text'=>"
@@ -521,7 +521,7 @@ SETJSON($rshq);
   }
 
   if($text and $rshq['mode'][$from_id]== "setcha"){
-    if(true){\
+    if(true){/
       bot('sendmessage',[
         'chat_id'=>$chat_id,
         'text'=>"
@@ -3660,3 +3660,4 @@ SETJSON($rshq);
 	}
 	
 	
+
